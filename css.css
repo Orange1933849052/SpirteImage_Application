@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+.main{
+    width: 390px;
+    height: 424px;
+    margin: 50px auto;
+}
+.wrap{
+    width: 360px;
+    height: 96px;
+    margin-top: 5px;
+    /* border: #cb3737 1px solid; */
+    display: flex;
+}
+.son1{
+    display: flex;
+    width: 180px;
+    height: 96px;
+    border: #cb3737 1px solid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.wrap>div+div{
+    border-left: none;
+}
+.icon+p{
+    padding-top: 10px;
+    font-size: 14px;
+    color: #cb3737;
+}
+
+.son1:hover{
+    background-color: #c44e41;
+}
+.son1:hover span{
+    background-position-y:-40px
+}
+.son1:hover span+p{
+    color: white;
+    background-color: #c44e41;
+}
+.inter>span{
+    background:url(./images/home-page-icons.png) no-repeat -160px 0;
+}
+.guide>span{
+    background:url(./images/home-page-icons.png) no-repeat -240px 0;
+}
+.workflow>span{
+    background:url(./images/home-page-icons.png) no-repeat -0px 0;
+}
+.schedule>span{
+    background:url(./images/home-page-icons.png) no-repeat -40px 0;
+}
+.readme>span{
+    background:url(./images/home-page-icons.png) no-repeat -120px 0;
+}
+.branch>span{
+    background:url(./images/home-page-icons.png) no-repeat -200px 0;
+}
+.party>span{
+    background:url(./images/home-page-icons.png) no-repeat -320px 0;
+}
+.doctor>span{
+    background:url(./images/home-page-icons.png) no-repeat -280px 0;
+}
